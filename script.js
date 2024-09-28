@@ -1,8 +1,8 @@
 //your JS code here. If required.
 let btn = document.getElementById("btn");
-let name = document.getElementById("name").value;
-let age = document.getElementById("age").value;
 btn.addEventListener("click", function() {
+	let name = document.getElementById("name").value;
+	let age = document.getElementById("age").value;
 	let promise = new Promise((resolve,reject) => {
 			if(age >= 18){
 				setTimeout(() => {
